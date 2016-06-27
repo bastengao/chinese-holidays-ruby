@@ -22,9 +22,23 @@ Or install it yourself as:
 
 ```ruby
 元旦 = Date.new(2016, 1, 1)
-Chinese::Holidays.is_holiday?(元旦) # true
+# 是否休假(含正常的周六、周日)
+Chinese::Holidays.is_holiday?(元旦)     # true
+# 是否是工作日(含节假日的调休)
 Chinese::Holidays.is_workdingday?(元旦) # fase
+
+
+# 列出已知的特殊节假日
+Chinese::Holidays.all.each do |holiday|
+  puts "#{holiday.name} #{holiday.days.map {|date| date.strftime('%F')}}"
+end
+# 元旦 ["2016-01-01", "2016-01-02", "2016-01-03"]
+# ...
 ```
+
+## 参考
+
+* http://www.gov.cn/zhengce/content/2015-12/10/content_10394.htm
 
 ## Contributing
 
