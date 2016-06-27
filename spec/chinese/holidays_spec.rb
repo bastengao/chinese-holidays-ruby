@@ -15,6 +15,10 @@ describe Chinese::Holidays do
     expect(Chinese::Holidays.is_workingday?(Date.new(2016, 1, 1))).to eq(false)
   end
 
+  it 'all' do
+    expect(Chinese::Holidays.all).not_to be_nil
+  end
+
   it 'load_holidays' do
     expect(Chinese::Holidays.load_holidays).not_to be_nil
   end

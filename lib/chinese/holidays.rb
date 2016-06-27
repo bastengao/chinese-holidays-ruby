@@ -5,8 +5,9 @@ require 'date'
 
 module Chinese
   module Holidays
+    # List all holidays
     def self.all
-      self.events
+      self.events.select {|event| event.type == 'holiday'}
     end
 
     def self.is_holiday?(date)
