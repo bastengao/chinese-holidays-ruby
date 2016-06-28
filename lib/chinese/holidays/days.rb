@@ -13,16 +13,16 @@ module Chinese
       def holiday?
         @type == 'holiday'
       end
-      
+
       def workingday?
         @type == 'workingday'
       end
 
       def days
         if @range.size == 1
-          [Date.strptime(@range[0], '%Y.%m.%d')]
+          [Date.strptime(@range[0], '%F')]
         elsif @range.size == 2
-          (Date.strptime(@range[0], '%Y.%m.%d')..Date.strptime(@range[1], '%Y.%m.%d')).to_a
+          (Date.strptime(@range[0], '%F')..Date.strptime(@range[1], '%F')).to_a
         end
       end
     end
