@@ -8,11 +8,18 @@ describe Chinese::Holidays do
   it 'is_holiday?' do
     expect(Chinese::Holidays.is_holiday?(Date.new(2016, 1, 5))).to eq(false)
     expect(Chinese::Holidays.is_holiday?(Date.new(2016, 1, 1))).to eq(true)
+
+    # 周末
+    expect(Chinese::Holidays.is_holiday?(Date.new(2016, 6, 25))).to eq(true)
+    expect(Chinese::Holidays.is_holiday?(Date.new(2016, 6, 26))).to eq(true)
   end
 
   it 'is_workingday?' do
     expect(Chinese::Holidays.is_workingday?(Date.new(2016, 1, 5))).to eq(true)
     expect(Chinese::Holidays.is_workingday?(Date.new(2016, 1, 1))).to eq(false)
+
+    # 调休
+    expect(Chinese::Holidays.is_workingday?(Date.new(2016, 6, 12))).to eq(true)
   end
 
   it 'all' do

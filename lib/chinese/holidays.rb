@@ -46,7 +46,7 @@ module Chinese
     end
 
     def self.weekend?(date)
-      date.wday == 6 && date.wday == 0
+      date.wday == 6 || date.wday == 0
     end
 
     def self.events
