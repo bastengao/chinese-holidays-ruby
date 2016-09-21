@@ -36,6 +36,10 @@ end
 # ...
 ```
 
+## 支持
+
+* 目前仅支持 2016 年，接下来会逐年扩充。
+
 ## 参考
 
 * http://www.gov.cn/zhengce/content/2015-12/10/content_10394.htm
