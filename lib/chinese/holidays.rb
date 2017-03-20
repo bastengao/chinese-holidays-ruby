@@ -34,7 +34,7 @@ module Chinese
       end
     end
 
-    protected
+    private
     def self.to_date(date)
       if date.is_a? Date
         date
