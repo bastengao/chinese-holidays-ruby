@@ -1,4 +1,5 @@
 # Chinese::Holidays
+[![Build Status](https://travis-ci.org/bastengao/chinese-holidays-ruby.svg?branch=master)](https://travis-ci.org/bastengao/chinese-holidays-ruby)
 
 提供具有中国特色的休假安排或者工作日查询。
 
