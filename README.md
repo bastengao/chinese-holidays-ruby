@@ -1,6 +1,6 @@
 # Chinese::Holidays
 
-[![Build Status](https://travis-ci.org/bastengao/chinese-holidays-ruby.svg?branch=master)](https://travis-ci.org/bastengao/chinese-holidays-ruby) [![Code Climate](https://codeclimate.com/github/bastengao/chinese-holidays-ruby/badges/gpa.svg)](https://codeclimate.com/github/bastengao/chinese-holidays-ruby)
+[![Ruby](https://github.com/bastengao/chinese-holidays-ruby/actions/workflows/ruby.yml/badge.svg)](https://github.com/bastengao/chinese-holidays-ruby/actions/workflows/ruby.yml) [![Code Climate](https://codeclimate.com/github/bastengao/chinese-holidays-ruby/badges/gpa.svg)](https://codeclimate.com/github/bastengao/chinese-holidays-ruby)
 
 提供具有中国特色的休假安排或者工作日查询。
 
