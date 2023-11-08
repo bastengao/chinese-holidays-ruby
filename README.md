@@ -40,6 +40,7 @@ end
 
 ## 支持
 
+* [支持 2024 年](https://www.gov.cn/zhengce/content/202310/content_6911527.htm)
 * [支持 2023 年](http://www.gov.cn/zhengce/content/2022-12/08/content_5730844.htm)
 * [支持 2022 年](http://www.gov.cn/zhengce/content/2021-10/25/content_5644835.htm)
 * [支持 2021 年](http://www.gov.cn/zhengce/content/2020-11/25/content_5564127.htm)
